@@ -1,0 +1,71 @@
+.addtocart{
+    background-color: #EEE;
+    border-radius: 0.6rem;
+    padding: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: fit-content;
+}
+
+.table{
+    border: solid 1px #DDD;
+    border-radius: 0.4rem;
+    margin-block: 0.6rem;
+    width: 100%;
+    padding: 2px;
+}
+
+.price{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.location{
+    padding: 0.2rem;
+    display: flex;
+    border: solid 1px #DDD;
+    border-radius: 0.4rem;
+    margin-block: 0.6rem;
+}
+
+.btn{
+    width: 100%;
+    margin-top: 0.3rem;
+    border: solid 1px #777;
+    border-radius: 12px;
+}
+
+#addtocartBtn{
+    background-color: rgb(66, 163, 142);
+    outline: none;
+}
+
+#buyNowBtn{
+    background-color: rgb(66, 142, 204);
+    outline: none;
+}
+
+.Quantity{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+
+.changeQunatityBtn{
+    width: 2rem;
+    margin: 0.2rem;
+    font-size: 1.6rem;
+    padding: 0;
+    background-color: #DDD;
+    outline: none;
+    border: none;
+}
+
+
+.changeQunatityBtn:focus {
+    outline: none;
+    border: none;
+}
